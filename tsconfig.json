@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "declaration": true,
+    "outDir": "./lib",
+    "strict": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": [
+    "src/main"
+  ],
+  "exclude": ["node_modules", "**/__tests__/*"]
+}
